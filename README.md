@@ -1,0 +1,1 @@
+This project is repicating the opening page of the Sprite.com website
