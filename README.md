@@ -1,1 +1,1 @@
-This project is repicating the opening page of the Sprite.com website
+This project is replicating the opening page of the Sprite.com website. This was the beginning of lessons regarding positioning and styling. We were introduced to flexbox. Some sections were not required.

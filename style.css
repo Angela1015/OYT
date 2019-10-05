@@ -56,15 +56,13 @@ header{
 .manifesto h1 h4{
     line-height: 1,5em;
 }
+
 @-webkit-keyframes color{
     from {background-color: black;}
   to {background-color: yellow;}
 }
 
-@keyframes color{
-    from {background-color:black;}
-  to {background-color: yellow;}
-}
+
 .tfy{
    margin: 0;
    background-color: white;
@@ -154,11 +152,25 @@ span{
     display: flex;
     justify-content: center;
     font-size: 40px;
-    font-style: italic;
-   
-    
-    
+    font-style: italic;     
 }
+.twitter{
+    -webkit-animation-name: twitter; /* Safari 4.0 - 8.0 */
+    -webkit-animation-duration: 8s; /* Safari 4.0 - 8.0 */
+    animation-name: twitter;
+    animation-duration: 8s;
+}
+/*@-webkit-keyframes twitter {
+    0%   { left:1200px;}
+    25%  { left:2000px;}
+    50%  { left:28000px;}
+    75%  { left:3600px;}
+    100% { left:4000px;}
+  }
+ */
+  
+
+  
 .music{
     background-image: url("images/crinkled-paper-texture_23-2147786533.jpg");
     background-size: 100%;
@@ -209,16 +221,14 @@ span{
 .end-links-list{
     color:white;
 }
-.footer div{
-    display: flex;
-    justify-content: center;
-    color:white;
-
-}
 .footer div a{
     display: flex;
-    justify-content: center;
-    color: white;
-    align-content: space-between;
+    justify-content:center;
+    color:white;
+    
 
+}
+.help{
+    display: flex;
+    justify-content: space-around;
 }
