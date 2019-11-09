@@ -23,10 +23,15 @@ header{
     background-color: #009639;
     width: 100%;
 }
+
+
 .site-links {
     display: flex;
     align-items: center;
+    
+    
 }
+
 
 .headernav{
     color: white;
@@ -34,8 +39,25 @@ header{
 }
 
 /*.social-media{
-    display:inline-flex;
-    justify-content: flex-end;*/
+    display:flex;
+    justify-items: space-between;}*/
+    
+
+    .black{
+        background-color: black;
+    }
+    
+.hero{
+    margin-top: 60px;
+    margin-bottom: -10px;
+    background-color: #000000;
+    min-width: 100%;
+    
+    
+}   
+.hero-image{
+    min-width: 100%;
+}
 
 .manifesto{
    text-align: center;
@@ -50,6 +72,7 @@ header{
   animation-duration: 3s;
   animation-iteration-count:3;
   margin-bottom: -10px;
+  margin-top: 50px;
 
   
 }
@@ -65,7 +88,8 @@ header{
 
 .tfy{
    margin: 0;
-   background-color: white;
+   background-color:white ;
+   min-width: 100%;
    
 }
 
@@ -109,6 +133,9 @@ span{
 .video{
     margin-left: 5%;
 
+}
+.lemon-sticker{
+    margin-left: 1px;
 }
 .TMW{
     display: flex;
@@ -160,14 +187,14 @@ span{
     animation-name: twitter;
     animation-duration: 8s;
 }
-/*@-webkit-keyframes twitter {
-    0%   { left:1200px;}
-    25%  { left:2000px;}
-    50%  { left:28000px;}
-    75%  { left:3600px;}
-    100% { left:4000px;}
+@-webkit-keyframes twitter {
+    0%   { left:0;}
+    25%  { left:25%;}
+    50%  { left:50%;}
+    75%  { left:75%;}
+    100% { left:100%;}
   }
- */
+ 
   
 
   
